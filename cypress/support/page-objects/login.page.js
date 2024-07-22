@@ -7,7 +7,7 @@ class LoginPage {
         this.txtservicos = '#menu-item-3715 > .menu-link > .menu-text';
         this.txtsuasfinancas = '#menu-item-3717 > .menu-link > .menu-text';
         this.txtsuaseguranca = '#menu-item-3716 > .menu-link > .menu-text';
-        this.txtstory = '#menu-item-5582 > .menu-link > .menu-text';
+        this.txtstories = '#menu-item-5582 > .menu-link > .menu-text';
         
     }
 
@@ -27,8 +27,8 @@ class LoginPage {
       clicarEmSuaSeguranca() {
         cy.get(this.txtsuaseguranca).click();
       }
-      clicarEmStory() {
-        cy.get(this.txtstory).click();
+      clicarEmStories() {
+        cy.get(this.txtstories).click();
       }
 
 }
